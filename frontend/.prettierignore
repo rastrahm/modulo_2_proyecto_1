@@ -1,0 +1,9 @@
+# Ignorar todos los archivos JS/JSX para evitar formateo automático
+*.js
+*.jsx
+src/**/*.js
+src/**/*.jsx
+
+# También ignorar otros archivos si es necesario
+*.css
+*.json

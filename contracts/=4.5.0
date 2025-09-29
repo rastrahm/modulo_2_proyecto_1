@@ -1,0 +1,26 @@
+
+> secp256k1@4.0.4 install /home/rolando/Documentos/Cursos/codecrypto/Modulo 2/proyecto01/contracts/node_modules/secp256k1
+> node-gyp-build || exit 0
+
+
+> keccak@3.0.4 install /home/rolando/Documentos/Cursos/codecrypto/Modulo 2/proyecto01/contracts/node_modules/keccak
+> node-gyp-build || exit 0
+
++ @types/chai@4.3.20
++ chai@4.5.0
++ @typechain/hardhat@9.1.0
++ hardhat-gas-reporter@1.0.10
++ solidity-coverage@0.8.16
++ @types/mocha@10.0.10
++ @nomicfoundation/hardhat-verify@2.1.1
++ @nomicfoundation/hardhat-network-helpers@1.1.0
++ @nomicfoundation/hardhat-chai-matchers@2.1.0
++ @nomicfoundation/hardhat-ethers@3.1.0
++ @nomicfoundation/hardhat-ignition-ethers@0.15.14
++ ts-node@10.9.2
++ typechain@8.3.2
++ typescript@5.9.2
++ ethers@6.15.0
++ @types/node@24.5.2
++ @typechain/ethers-v6@0.5.1
+added 339 packages from 525 contributors and updated 213 packages in 37.053s

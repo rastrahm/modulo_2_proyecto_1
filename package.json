@@ -1,0 +1,20 @@
+{
+    "name": "ecommerce-blockchain-project",
+    "version": "1.0.0",
+    "description": "Proyecto de e-commerce con blockchain, Stripe e IPFS",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run dev:hardhat\" \"npm run dev:react\"",
+        "dev:hardhat": "cd contracts && npm run node",
+        "dev:react": "cd frontend && npm start",
+        "build": "cd contracts && npm run compile && cd ../frontend && npm run build",
+        "deploy": "cd contracts && npm run deploy",
+        "test": "cd contracts && npm test"
+    },
+    "keywords": ["blockchain", "solidity", "react", "stripe", "ipfs"],
+    "author": "Rolando",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
